@@ -1,0 +1,66 @@
+:root {
+    --canvas-size: 80vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#565455, #9198e5);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+    padding: 20px;
+}
+
+canvas {
+    background-color: #d1d1d1;
+    border: 2px solid #333;
+    height: var(--canvas-size);
+    width: var(--canvas-size);
+    position: absolute;
+    top: 10vh;
+    left: 10vh;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+    height: 90vh;
+    max-width: 15vh;
+    position: absolute;
+    right: 5vh;
+    top: 5vh;
+}
+
+.controls h3 {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+button {
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: white;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #555;
+}
