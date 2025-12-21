@@ -1,6 +1,0 @@
-24d1b63 HEAD@{0}: commit: uploading to github
-f96ee3d HEAD@{1}: pull origin main --rebase (start): checkout f96ee3dca7990a7a19c16272d802717f8c061bc0
-8b2d014 HEAD@{2}: commit: uploading to github
-fb19ca3 HEAD@{3}: Branch: renamed refs/heads/main to refs/heads/main
-fb19ca3 HEAD@{5}: Branch: renamed refs/heads/main to refs/heads/main
-fb19ca3 HEAD@{7}: commit (initial): first commit
